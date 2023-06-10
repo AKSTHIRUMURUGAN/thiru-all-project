@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>eigen vlaue</title>
+        <link rel="stylesheet" href="sample.css">
+        
+    </head>
+    <h1>EIGEN VALUE CALCULATOR</h1>
+    <section>
+     <div class="table">
+        <table id="table1">
+            <tr>
+                <td><input type="text" name="a11" id="v1" placeholder="a11" class="matrix"></td>
+                <td><input type="text" name="a12" id="v2" placeholder="a12" class="matrix"></td>
+                <td><input type="text" name="a13" id="v3" placeholder="a13" class="matrix"></td>
+            </tr>
+            <tr>
+                <td><input type="text" name="a21" id="v4" placeholder="a21" class="matrix"></td>
+                <td><input type="text" name="a22" id="v5" placeholder="a22" class="matrix"></td>
+                <td><input type="text" name="a23" id="v6" placeholder="a23" class="matrix"></td>
+            </tr>
+            <tr>
+                <td><input type="text" name="a31" id="v7" placeholder="a31" class="matrix"></td>
+                <td><input type="text" name="a32" id="v8" placeholder="a32" class="matrix"></td>
+                <td><input type="text" name="a33" id="v9" placeholder="a33" class="matrix"></td>
+            </tr>
+
+        </table>
+     </div>
+     
+     <button id="reset" onclick="window.location.reload()" >CLEAR</button>
+     <button id="button" onclick=calculation()>CALCULATE</button> 
+     <p id="nbc"></p>
+     <button id="tmb" onclick=t2()>2X2 MATRIX</button>
+     
+    </section>
+    <aside>
+     <h2>SOLUTION:</h2>
+     <h3>THE CHARACTERISTIC EQUATION IS:</h3>
+     <P id="np"></P>
+     <h3>THE EIGEN VALUES ARE:</h3>
+     <p id="p"></p>
+    </aside>
+    
+
+    <script src="sample.js"></script>
+    </body>
+</html>
